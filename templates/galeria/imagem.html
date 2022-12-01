@@ -1,0 +1,20 @@
+{% extends 'galeria/base.html' %}
+{% load static %}
+{% block content %}
+            <section class="conteudo">
+                <section class="imagem">
+                    <div class="imagem__conteudo">
+                        <img class="imagem__imagem" src="{% static '/assets/imagens/galeria/carina-nebula.png' %}">
+                        <div class="imagem__info">
+                            <div class="imagem__texto">
+                                <p class="imagem__titulo">“Penhascos Cósmicos” na Nebulosa Carina</p>
+                                <p class="imagem__descricao">12 de julho de 2022</p>
+                                <p class="imagem__texto">O que se parece muito com montanhas escarpadas em uma noite enluarada é na verdade a borda de uma região jovem e próxima de formação de estrelas NGC 3324 na Nebulosa Carina. Capturada em luz infravermelha pela Near-Infrared Camera ( NIRCam ) no Telescópio Espacial James Webb da NASA, esta imagem revela áreas anteriormente obscurecidas do nascimento de estrelas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+{% endblock %}
